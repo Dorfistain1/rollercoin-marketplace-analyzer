@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# VSCode workspace
+.vscode/
+
+# Debug images or logs
+debug/
+*.png
+*.jpg
+
+# OS metadata
+.DS_Store
+
+# Virtual environments (optional)
+venv/
+.env/
+
+# Re-include templates even if they are PNG
+!ocr/templates/
+!ocr/templates/*.png

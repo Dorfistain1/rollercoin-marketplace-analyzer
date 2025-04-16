@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Gold Digger",
+    "power_ghs": 15000.0,
+    "bonus_percent": 0.01,
+    "price_rlt": 0.231,
+    "effective_power_ghs": 1015150.0,
+    "efficiency_score": 4394588.744588745
+  },
+  {
+    "name": "Ouroboros",
+    "power_ghs": 40000.0,
+    "bonus_percent": 0.0025,
+    "price_rlt": 0.163275,
+    "effective_power_ghs": 290100.0,
+    "efficiency_score": 1776757.005052825
+  },
+  {
+    "name": "Deepdiver",
+    "power_ghs": 12500.0,
+    "bonus_percent": 0.0025,
+    "price_rlt": 0.21,
+    "effective_power_ghs": 262531.25,
+    "efficiency_score": 1250148.8095238095
+  },
+  {
+    "name": "Subminerine",
+    "power_ghs": 15000.0,
+    "bonus_percent": 0.0025,
+    "price_rlt": 0.231,
+    "effective_power_ghs": 265037.5,
+    "efficiency_score": 1147348.4848484849
+  },
+  {
+    "name": "Monstrocrab",
+    "power_ghs": 45500.0,
+    "bonus_percent": 0.001,
+    "price_rlt": 0.231,
+    "effective_power_ghs": 145545.5,
+    "efficiency_score": 630067.0995670996
+  },
+  {
+    "name": "Purity",
+    "power_ghs": 87750.0,
+    "bonus_percent": 0.0,
+    "price_rlt": 0.21,
+    "effective_power_ghs": 87750.0,
+    "efficiency_score": 417857.1428571429
+  },
+  {
+    "name": "Rust Runner",
+    "power_ghs": 64599.99999999999,
+    "bonus_percent": 0.0,
+    "price_rlt": 0.18165,
+    "effective_power_ghs": 64599.99999999999,
+    "efficiency_score": 355628.9567850261
+  },
+  {
+    "name": "RollerHouse",
+    "power_ghs": 55000.0,
+    "bonus_percent": 0.0,
+    "price_rlt": 0.1785,
+    "effective_power_ghs": 55000.0,
+    "efficiency_score": 308123.24929971993
+  },
+  {
+    "name": "Disco-Roll",
+    "power_ghs": 36300.0,
+    "bonus_percent": 0.0,
+    "price_rlt": 0.1491,
+    "effective_power_ghs": 36300.0,
+    "efficiency_score": 243460.76458752513
+  },
+  {
+    "name": "Nuclearburg",
+    "power_ghs": 35200.0,
+    "bonus_percent": 0.0,
+    "price_rlt": 0.231,
+    "effective_power_ghs": 35200.0,
+    "efficiency_score": 152380.95238095237
+  },
+  {
+    "name": "aan evensrws",
+    "power_ghs": 15400.0,
+    "bonus_percent": 0.0,
+    "price_rlt": 0.1365,
+    "effective_power_ghs": 15400.0,
+    "efficiency_score": 112820.51282051281
+  },
+  {
+    "name": "Chattanooga Choo",
+    "power_ghs": 20230.0,
+    "bonus_percent": 0.0,
+    "price_rlt": 0.21,
+    "effective_power_ghs": 20230.0,
+    "efficiency_score": 96333.33333333334
+  },
+  {
+    "name": "Radio Gaga",
+    "power_ghs": 15400.0,
+    "bonus_percent": 0.0,
+    "price_rlt": 0.230475,
+    "effective_power_ghs": 15400.0,
+    "efficiency_score": 66818.52695520122
+  },
+  {
+    "name": "Minerzaurus",
+    "power_ghs": 1.0,
+    "bonus_percent": 0.0001,
+    "price_rlt": 0.21,
+    "effective_power_ghs": 10001.000100000001,
+    "efficiency_score": 47623.810000000005
+  },
+  {
+    "name": "Mergedge Mk. |",
+    "power_ghs": 4860.0,
+    "bonus_percent": 0.0,
+    "price_rlt": 0.168,
+    "effective_power_ghs": 4860.0,
+    "efficiency_score": 28928.571428571428
+  },
+  {
+    "name": "Turkey Aid 2023",
+    "power_ghs": 100.0,
+    "bonus_percent": 0.0,
+    "price_rlt": 0.147,
+    "effective_power_ghs": 100.0,
+    "efficiency_score": 680.2721088435375
+  },
+  {
+    "name": "Demon Speeding",
+    "power_ghs": 10.0,
+    "bonus_percent": 0.0,
+    "price_rlt": 0.21,
+    "effective_power_ghs": 10.0,
+    "efficiency_score": 47.61904761904762
+  }
+]
