@@ -54,6 +54,9 @@ def scroll_until_footer(get_current_names, max_scrolls: int = 30, scroll_px_rang
 
         if is_footer_visible(SCROLL_STOP_TEMPLATE):
             print("🛑 Footer detected, stopping scroll.")
+            human_scroll(-random.randint(200, 500))  # extra scroll to lock page switcher position
+            time.sleep(random.uniform(0.3, 0.6))  # small wait to settle
             break
+
     else:
         print("⚠️ Reached max scrolls without finding footer.")

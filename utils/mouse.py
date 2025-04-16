@@ -1,5 +1,3 @@
-# utils/mouse.py
-
 import pyautogui
 import random
 import time

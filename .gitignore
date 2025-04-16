@@ -20,3 +20,8 @@ venv/
 # Re-include templates even if they are PNG
 !ocr/templates/
 !ocr/templates/*.png
+
+# Ignore only this file
+/data/results.json
+# But keep the folder
+!data/

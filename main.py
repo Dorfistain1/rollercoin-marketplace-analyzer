@@ -73,10 +73,17 @@ def main():
         while True:
             print(f"🔄 Scanning page {current_page}...")
             scroll_until_footer(ocr_miner_names, scroll_px_range=(300, 380))
-            miners_on_page = analyze_visible_miners(raw_power_ghs, max_price_rlt)
-            analyzed.extend(miners_on_page)
 
-            if any(miner['price_rlt'] > max_price_rlt for miner in miners_on_page):
+            # Analyze all miners regardless of price to detect expensive ones
+            all_miners = analyze_visible_miners(raw_power_ghs, max_price=None)
+
+            # Only keep miners within the allowed price range
+            for miner in all_miners:
+                if miner['price_rlt'] <= max_price_rlt:
+                    analyzed.append(miner)
+
+            # Stop scanning if any miner on this page exceeds the max price
+            if any(miner['price_rlt'] > max_price_rlt for miner in all_miners):
                 break
 
             current_page += 1
