@@ -66,6 +66,34 @@ You can use only one or both filters together.
 - Console output of best miners
 - Results saved to: `data/results.json`
 
+## 📦 Usage
+
+1. **Open the RollerCoin Marketplace** in your browser and make sure it's visible on screen.
+2. **Configure settings** in `config.py`, such as:
+   - `PRESET_RAW_POWER_GHS`: Your current raw power (in Gh/s).
+   - `MAX_PAGES`: How many pages to scan.
+   - `MAX_PRICE_RLT`: Optional price filter – skip miners above this value.
+3. **Run the script** using:
+
+   ```
+   python main.py
+   ```
+
+4. The bot will:
+   - Automatically locate the RollerCoin window.
+   - Scroll through the Marketplace and analyze miner stats using OCR.
+   - Output the top miners directly in the console.
+   - Save all scanned miner data to `data/results.json`.
+
+5. **Optional**: You can re-analyze or sort results without re-running the bot by executing:
+
+   ```
+   python utils/sort_results.py
+   ```
+
+   This will read from `data/results.json` and print the top-performing miners again.
+
+
 ## Notes
 
 This is a hobby automation tool and not affiliated with RollerCoin. Use responsibly.
