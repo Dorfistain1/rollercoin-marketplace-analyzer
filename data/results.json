@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Uncommon Dream Demolisher 3000",
+    "power_ghs": 183750.0,
+    "bonus_percent": 0.021,
+    "price_rlt": 2.205,
+    "effective_power_ghs": 2287608.75,
+    "efficiency_score": 1037464.2857142857
+  },
+  {
+    "name": "Uncommon Nucleus",
+    "power_ghs": 262500.0,
+    "bonus_percent": 0.0158,
+    "price_rlt": 2.1,
+    "effective_power_ghs": 1846647.5000000002,
+    "efficiency_score": 879355.9523809524
+  },
+  {
+    "name": "Rare Chattanooga Choo",
+    "power_ghs": 139545.0,
+    "bonus_percent": 0.0166,
+    "price_rlt": 2.079,
+    "effective_power_ghs": 1801861.447,
+    "efficiency_score": 866696.2227032225
+  },
+  {
+    "name": "Rare Paradise Pier",
+    "power_ghs": 138180.0,
+    "bonus_percent": 0.0166,
+    "price_rlt": 2.1,
+    "effective_power_ghs": 1800473.788,
+    "efficiency_score": 857368.4704761904
+  },
+  {
+    "name": "Uncommon The Creeper",
+    "power_ghs": 236250.0,
+    "bonus_percent": 0.0158,
+    "price_rlt": 2.205,
+    "effective_power_ghs": 1819982.7500000002,
+    "efficiency_score": 825389.0022675737
+  },
+  {
+    "name": "Rare Fury Fueler",
+    "power_ghs": 154350.0,
+    "bonus_percent": 0.0166,
+    "price_rlt": 2.394945,
+    "effective_power_ghs": 1816912.21,
+    "efficiency_score": 758644.6494595909
+  },
+  {
+    "name": "Uncommon Air Mattress",
+    "power_ghs": 525000.0,
+    "bonus_percent": 0.0105,
+    "price_rlt": 2.205,
+    "effective_power_ghs": 1580512.5,
+    "efficiency_score": 716785.7142857143
+  },
+  {
+    "name": "HamTube",
+    "power_ghs": 750000.0,
+    "bonus_percent": 0.0075,
+    "price_rlt": 2.194499,
+    "effective_power_ghs": 1505625.0,
+    "efficiency_score": 686090.5382048477
+  },
+  {
+    "name": "Uncommon NeonBlaze",
+    "power_ghs": 422625.0,
+    "bonus_percent": 0.0095,
+    "price_rlt": 2.06955,
+    "effective_power_ghs": 1376639.9375,
+    "efficiency_score": 665188.0541663647
+  },
+  {
+    "name": "Uncommon Earthbind",
+    "power_ghs": 551250.0,
+    "bonus_percent": 0.0073,
+    "price_rlt": 2.1,
+    "effective_power_ghs": 1285274.125,
+    "efficiency_score": 612035.2976190476
+  },
+  {
+    "name": "Uncommon JaFan",
+    "power_ghs": 597345.0,
+    "bonus_percent": 0.008100000000000001,
+    "price_rlt": 2.31,
+    "effective_power_ghs": 1412183.4945,
+    "efficiency_score": 611334.8461038962
+  },
+  {
+    "name": "Rare Nuclearburg",
+    "power_ghs": 242550.0,
+    "bonus_percent": 0.01,
+    "price_rlt": 2.1,
+    "effective_power_ghs": 1244975.5,
+    "efficiency_score": 592845.4761904762
+  },
+  {
+    "name": "Rare Mycelium",
+    "power_ghs": 241185.0,
+    "bonus_percent": 0.011000000000000001,
+    "price_rlt": 2.3037,
+    "effective_power_ghs": 1343838.0350000001,
+    "efficiency_score": 583338.9916221731
+  },
+  {
+    "name": "Uncommon Oscamster",
+    "power_ghs": 670740.0,
+    "bonus_percent": 0.005,
+    "price_rlt": 2.0895,
+    "effective_power_ghs": 1174093.7,
+    "efficiency_score": 561901.7468293849
+  },
+  {
+    "name": "Uncommon Hellcat",
+    "power_ghs": 493815.0,
+    "bonus_percent": 0.006500000000000001,
+    "price_rlt": 2.1,
+    "effective_power_ghs": 1147024.7975,
+    "efficiency_score": 546202.2845238096
+  },
+  {
+    "name": "Brilliance Bay",
+    "power_ghs": 680000.0,
+    "bonus_percent": 0.005,
+    "price_rlt": 2.31,
+    "effective_power_ghs": 1183400.0,
+    "efficiency_score": 512294.3722943723
+  },
+  {
+    "name": "Rare Ramesses II",
+    "power_ghs": 447930.0,
+    "bonus_percent": 0.0055000000000000005,
+    "price_rlt": 2.0895,
+    "effective_power_ghs": 1000393.6150000001,
+    "efficiency_score": 478771.7707585547
+  },
+  {
+    "name": "Uncommon Kinetic Energy",
+    "power_ghs": 577500.0,
+    "bonus_percent": 0.004,
+    "price_rlt": 2.1,
+    "effective_power_ghs": 979810.0,
+    "efficiency_score": 466576.1904761905
+  },
+  {
+    "name": "Tetromino",
+    "power_ghs": 490250.0,
+    "bonus_percent": 0.0045000000000000005,
+    "price_rlt": 2.1,
+    "effective_power_ghs": 942456.125,
+    "efficiency_score": 448788.63095238095
+  },
+  {
+    "name": "Uncommon RollerPride S9+",
+    "power_ghs": 131250.0,
+    "bonus_percent": 0.0079,
+    "price_rlt": 2.1,
+    "effective_power_ghs": 922286.8750000001,
+    "efficiency_score": 439184.2261904762
+  },
+  {
+    "name": "Rare The Black Pearl",
+    "power_ghs": 344610.0,
+    "bonus_percent": 0.0055000000000000005,
+    "price_rlt": 2.0895,
+    "effective_power_ghs": 896505.3550000001,
+    "efficiency_score": 429052.5747786552
+  },
+  {
+    "name": "Hawaii Pass",
+    "power_ghs": 792000.0,
+    "bonus_percent": 0.0,
+    "price_rlt": 2.289,
+    "effective_power_ghs": 792000.0,
+    "efficiency_score": 346002.621231979
+  },
+  {
+    "name": "Tusk Gun",
+    "power_ghs": 483000.0,
+    "bonus_percent": 0.0025,
+    "price_rlt": 2.1252,
+    "effective_power_ghs": 734207.5,
+    "efficiency_score": 345476.8962921137
+  },
+  {
+    "name": "MysticGarden",
+    "power_ghs": 300000.0,
+    "bonus_percent": 0.0045000000000000005,
+    "price_rlt": 2.3625,
+    "effective_power_ghs": 751350.0,
+    "efficiency_score": 318031.74603174604
+  },
+  {
+    "name": "Epic Mictlan",
+    "power_ghs": 361935.0,
+    "bonus_percent": 0.0029,
+    "price_rlt": 2.1,
+    "effective_power_ghs": 652984.6115,
+    "efficiency_score": 310945.0530952381
+  },
+  {
+    "name": "Uncommon White Christmas",
+    "power_ghs": 59850.0,
+    "bonus_percent": 0.0055000000000000005,
+    "price_rlt": 2.1,
+    "effective_power_ghs": 610179.175,
+    "efficiency_score": 290561.5119047619
+  },
+  {
+    "name": "Rare Pit Boss",
+    "power_ghs": 380940.0,
+    "bonus_percent": 0.0025,
+    "price_rlt": 2.31,
+    "effective_power_ghs": 631892.35,
+    "efficiency_score": 273546.47186147183
+  }
+]
