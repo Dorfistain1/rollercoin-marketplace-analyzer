@@ -66,7 +66,7 @@ You can use only one or both filters together.
 - Console output of best miners
 - Results saved to: `data/results.json`
 
-## 📦 Usage
+## Usage
 
 1. **Open the RollerCoin Marketplace** in your browser and make sure it's visible on screen.
 2. **Configure settings** in `config.py`, such as:
