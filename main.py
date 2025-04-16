@@ -1,7 +1,5 @@
-# main.py
 import json
 import cv2
-from power_input import ask_user_power
 from miner_analyzer import analyze_miner
 from config import rel_path, PRESET_RAW_POWER_GHS, MAX_PAGES, MAX_PRICE_RLT
 from vision.screen_grabber import find_marketplace_window, take_screenshot

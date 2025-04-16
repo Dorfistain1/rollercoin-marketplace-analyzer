@@ -1,5 +1,3 @@
-# miner_analyzer.py
-
 def analyze_miner(miner: dict, raw_power_ghs: float) -> dict:
     """
     Calculates the effective power and efficiency score of a miner.

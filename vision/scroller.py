@@ -1,4 +1,3 @@
-# vision/scroller.py
 import time
 import random
 import cv2

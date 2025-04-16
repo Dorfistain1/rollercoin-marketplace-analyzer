@@ -1,4 +1,3 @@
-# page_scanner.py
 import cv2
 import numpy as np
 from config import rel_path

@@ -1,4 +1,3 @@
-# vision/screen_grabber.py
 import pyautogui
 import time
 import cv2

@@ -1,4 +1,3 @@
-# ocr/extract.py
 import pytesseract
 import cv2
 import re

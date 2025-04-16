@@ -1,4 +1,3 @@
-# ocr/regions.py
 REGIONS = {
     "name": (23, 46, 535, 34),
     "power_bonus": (20, 85, 400, 27),
