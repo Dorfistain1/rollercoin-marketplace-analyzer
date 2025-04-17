@@ -6,18 +6,13 @@ import numpy as np
 from PIL import Image
 from utils.mouse import human_click, human_move_offscreen
 from vision.screen_grabber import take_screenshot
-from config import rel_path
+from screen_profiles import detect_and_activate_profile
 
-# Define template paths for page numbers (2–6)
-TEMPLATES = {
-    "2": rel_path("ocr", "templates", "page_2.png"),
-    "3": rel_path("ocr", "templates", "page_3.png"),
-    "4": rel_path("ocr", "templates", "page_4.png"),
-    "5": rel_path("ocr", "templates", "page_5.png"),
-    "6": rel_path("ocr", "templates", "page_6.png")
-}
+# Načti aktivní profil
+profile = detect_and_activate_profile()
+TEMPLATES = profile.page_templates
 
-# Global variable to store fixed coordinates from page 6 onward
+# Globální souřadnice pro klikání na čísla stránek 7+
 fixed_page_coords = None
 
 def find_page_number(template_path: str, threshold: float = 0.9):
@@ -40,22 +35,20 @@ def click_page_number(page_number: str, offset_x=0, offset_y=0):
     global fixed_page_coords
 
     if page_number in TEMPLATES:
-        # Pages 2–6 use template matching
+        # Použij šablonu podle profilu
         page_coords = find_page_number(TEMPLATES[page_number])
         if not page_coords:
             return
         x, y = page_coords
 
-        # If it's page 6, save coordinates for later use
+        # Pokud je to první výskyt 6, ulož souřadnici pro další kliky (7+)
         if page_number == "6" and fixed_page_coords is None:
             fixed_page_coords = (x, y)
 
-        # Slightly larger random offset for click targeting
         x += 20 + random.randint(-7, 7)
         y += 20 + random.randint(-7, 7)
 
     elif page_number.isdigit() and int(page_number) > 6:
-        # Use saved coordinates for 7+ (fixed layout)
         if fixed_page_coords is None:
             print("⚠️ Cannot click pages >6 before detecting page 6!")
             return

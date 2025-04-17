@@ -1,5 +1,4 @@
 import pytesseract
-import cv2
 import re
 import numpy as np
 from ocr.regions import crop_region

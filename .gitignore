@@ -5,10 +5,8 @@ __pycache__/
 # VSCode workspace
 .vscode/
 
-# Debug images or logs
+# Debug
 debug/
-*.png
-*.jpg
 
 # OS metadata
 .DS_Store

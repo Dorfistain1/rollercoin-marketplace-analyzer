@@ -5,9 +5,11 @@ import numpy as np
 from PIL import ImageGrab
 from config import rel_path
 from utils.mouse import human_scroll
+from screen_profiles import detect_and_activate_profile
 
 # Path to the footer reference image (e.g. 'ABOUT US | INFORMATION | COMMUNITY')
-SCROLL_STOP_TEMPLATE = rel_path("ocr", "templates", "footer_about_us.png")
+profile = detect_and_activate_profile()
+SCROLL_STOP_TEMPLATE = profile.footer_template_path
 
 def is_footer_visible(template_path: str, threshold: float = 0.9) -> bool:
     """

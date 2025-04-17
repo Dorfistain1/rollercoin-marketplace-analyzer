@@ -1,8 +1,4 @@
-REGIONS = {
-    "name": (23, 46, 535, 34),
-    "power_bonus": (20, 85, 400, 27),
-    "price": (450, 97, 150, 23),
-}
+REGIONS = {}  # Will be set by profile.activate()
 
 def crop_region(image, region_key):
     if region_key not in REGIONS:
