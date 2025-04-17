@@ -6,7 +6,7 @@ __pycache__/
 .vscode/
 
 # Debug
-debug/
+debug/*
 !debug/debug_main.py
 
 # OS metadata
