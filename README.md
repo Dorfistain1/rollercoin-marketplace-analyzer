@@ -4,7 +4,7 @@ This tool automatically scans the RollerCoin Marketplace and helps you identify 
 
 ## Features
 
-- Automatically switches to the RollerCoin window (based on hamster icon).
+- Automatically switches to the [RollerCoin](https://rollercoin.com/?r=kyaf3h0b) window (based on hamster icon).
 - Scrolls through the visible marketplace page.
 - Detects all miner boxes and extracts:
   - Name
