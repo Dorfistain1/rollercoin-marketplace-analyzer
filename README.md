@@ -96,12 +96,13 @@ You can use only one or both filters together.
 ## 🚧 To-Do / Known Issues
 
 ### 🔧 Compatibility Fixes
-- [ ] **Fix support for 1080p resolution** – některé pozice a šablony nefungují správně na FullHD monitorech. Nutné upravit regiony a šablony v `screen_profiles.py`.
+- [ ] **Fix support for 1080p resolution** – Miner regions and template matching currently work best on 4K. 1080p profile needs precise adjustments to region coordinates and all related templates in `screen_profiles.py`.
 
-### 🧭 Navigation Bug
-- [ ] **Fix navigation beyond last visible page number** – když se stránkování posune mimo první řadu čísel (např. na stránku 7+), systém stále kliká na staré souřadnice.
-    - ✅ Řešení: až se objeví footer, vyříznout pomocí OCR / šablony navigační oblast, najít číslo, na které chceme kliknout, a kliknout přesně na jeho pozici.
-
+### 🧭 Navigation Bug (End of Pagination)
+- [ ] **Fix pagination click logic when reaching the end of the page list**
+    - At the start, page numbers (2–6) are in moving positions, so dedicated templates are used to detect them.
+    - When reaching the **end** of pagination (e.g., last 5 visible pages), page numbers shift again — but because the **total number of pages is unknown**, we cannot template them ahead of time.
+    - ✅ **Planned solution**: Once the footer is detected, crop the navigation bar area, run OCR to locate the target page number, and click its position. This allows handling dynamic pagination without relying on static templates.
 
 ## Notes
 
