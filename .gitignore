@@ -7,6 +7,7 @@ __pycache__/
 
 # Debug
 debug/
+!debug/debug_main.py
 
 # OS metadata
 .DS_Store
@@ -14,7 +15,3 @@ debug/
 # Virtual environments (optional)
 venv/
 .env/
-
-# Re-include templates even if they are PNG
-!ocr/templates/
-!ocr/templates/*.png
