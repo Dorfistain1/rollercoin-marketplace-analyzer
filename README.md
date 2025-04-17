@@ -93,6 +93,15 @@ You can use only one or both filters together.
 
    This will read from `data/results.json` and print the top-performing miners again.
 
+## 🚧 To-Do / Known Issues
+
+### 🔧 Compatibility Fixes
+- [ ] **Fix support for 1080p resolution** – některé pozice a šablony nefungují správně na FullHD monitorech. Nutné upravit regiony a šablony v `screen_profiles.py`.
+
+### 🧭 Navigation Bug
+- [ ] **Fix navigation beyond last visible page number** – když se stránkování posune mimo první řadu čísel (např. na stránku 7+), systém stále kliká na staré souřadnice.
+    - ✅ Řešení: až se objeví footer, vyříznout pomocí OCR / šablony navigační oblast, najít číslo, na které chceme kliknout, a kliknout přesně na jeho pozici.
+
 
 ## Notes
 
